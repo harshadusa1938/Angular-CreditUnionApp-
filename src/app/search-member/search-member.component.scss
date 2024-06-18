@@ -1,0 +1,14 @@
+/* Styles specific to SearchMemberComponent */
+
+.container {
+  background-color: #e9ecef;
+}
+
+form input[type="text"] {
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+  width: 100%;
+}

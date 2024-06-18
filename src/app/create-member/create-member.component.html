@@ -1,0 +1,20 @@
+<div>
+  <h2>Create Member</h2>
+  <form (ngSubmit)="createMember()">
+
+    <label for="accountNumber">Account Number:</label>
+    <input id="accountNumber" [(ngModel)]="member.accountNumber" name="accountNumber" required>
+
+    <label for="firstName">First Name:</label>
+    <input id="firstName" [(ngModel)]="member.firstName" name="firstName" required>
+
+    <label for="lastName">Last Name:</label>
+    <input id="lastName" [(ngModel)]="member.lastName" name="lastName" required>
+
+    <label for="address">Address:</label>
+    <input id="address" [(ngModel)]="member.address" name="address" required>
+
+
+    <button type="submit">Create Member</button>
+  </form>
+</div>
